@@ -43,6 +43,7 @@ Semantic HTML provides meaning and by that I mean that there are tags meant for 
 ``display: block;`` Takes up as much width as its parent element will allow and Both height and width can be used to adjust sizing of the element. Also it can use Can use ``margin: auto;`` to center horizontally
 
 3. What are the 4 areas of the box model?
+
 The four areas consists of Margin, Border, Padding, Content
 from my understanding is margin controls the outer space. 
 border is a border line
@@ -56,7 +57,7 @@ Items are aligned on the center cross axis
 5. Explain why git is valuable to a team of developers.
 
 The reason as to why git is important to team of devs is because it's essentially easier to communicate to one another on what needs to be worked on and what is assigned to an individual.
-ultimately it's beneficial because it allows developers to work on the code base/source code by creating a branch which minimizes the risk of breaking something.
+ultimately it's beneficial because it allows developers to work on the code base/source code by creating a branch which minimizes the risk of breaking something..
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
