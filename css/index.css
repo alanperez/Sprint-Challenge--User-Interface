@@ -77,8 +77,11 @@ header {
 header nav {
     margin: 20px 0;
     padding: 0 40px;
+    
 }
-
+/* header .logo {
+    width: 100%;
+} */
 header nav a {
     /* display: inline-block; */
         /* margin-right: 65px;
@@ -87,6 +90,12 @@ header nav a {
         font-size: 14px;
         color: black;
         text-decoration: none;
+        font-weight: 600;
+}
+
+header nav a:hover {
+    /* transition: 1s;
+    left: 0; */
 }
 
 .top-content {
@@ -270,6 +279,10 @@ footer nav a {
     margin: 0 auto;
 }
 
+.about-page .big-pic img{
+    width: 100%;
+}
+
 .top-about-content {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -281,12 +294,16 @@ footer nav a {
     padding-bottom: 20px;
 }
 
+.top-about-content .text-about-container h2{
+    font-weight: 600;
+}
+
 .middle-about-content {
     display: flex;
     flex-wrap: wrap;
     /* justify-content: space-evenly;
     margin-bottom: 20px; */
-    border-bottom: 1px dashed black;
+    /* border-bottom: 1px dashed black; */
     /* border: 1px solid red; */
 
 }
@@ -304,17 +321,27 @@ footer nav a {
 .middle-about-content .middle-about-content-info h2 {
     font-size: 18px;
     padding-top:15px;
-    text-align: left;
-
+    /* text-align: left; */
+    font-weight: bold;
 }
 
+.middle-about-content .middle-about-content-info p {
+    font-weight: 500;
+    font-size: 16px;
+}
 .middle-about-content .middle-about-content-info button {
+    margin: 25px 0;
     border-radius: 8px;
     border: 2px solid black;
     font-size: 16px;
     background-color: white;
     padding: 10px 20px;
     cursor:pointer;
+}
+
+.middle-about-content-info-text {
+    margin: 0 20px;
+    border-bottom: 1px dashed black;
 }
 
 
