@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    font-family: 'Roboto';
 }
 ol, ul {
 	list-style: none;
@@ -278,4 +279,44 @@ footer nav a {
     width: 100%;
     padding: 0 1%;
     padding-bottom: 20px;
+}
+
+.middle-about-content {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly;
+    margin-bottom: 20px; */
+    border-bottom: 1px dashed black;
+    /* border: 1px solid red; */
+
+}
+
+.middle-about-content .middle-about-content-info {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    /* background-color: rgba(218, 218, 218, 0.849); */
+    /* border: 1px solid red; */
+}
+
+.middle-about-content .middle-about-content-info h2 {
+    font-size: 18px;
+    padding-top:15px;
+    text-align: left;
+
+}
+
+.middle-about-content .middle-about-content-info button {
+    border-radius: 8px;
+    border: 2px solid black;
+    font-size: 16px;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+
+.bottom-about-content {
+    margin: 40px 0;
 }
