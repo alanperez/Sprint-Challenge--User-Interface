@@ -113,12 +113,22 @@ header nav a:hover {
     padding-bottom: 20px;  
 }
 
+.top-content .text-container h2 {
+    font-weight: 600;
+}
+
+.top-content .text-container p {
+    font-weight: 400;
+}
+
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
+    font-weight: 600;
     padding: 0 2%;
     margin-bottom: 0;
 }
@@ -246,6 +256,10 @@ header nav a:hover {
 
 .bottom-content .text-container {
     padding-right: 4%;
+}
+
+.bottom-content .text-container h2 {
+    font-weight: 600;
 }
 
 .bottom-content .text-container:last-child {
